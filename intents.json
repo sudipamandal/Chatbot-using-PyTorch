@@ -1,0 +1,152 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hello! Don’t be afraid to ask any questions. I love them!",
+        "Hello! How can I help you today?",
+        "Hey! Thank you for chatting with me. I’m here to help you with anything you need."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "I hope we could resolve all the queries that you had!",
+        "Thanks for visiting us, I hope you visit again!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!","It was my pleasure that I could be of help to you!"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We offer breakfast, lunch, snacks and dinner"
+      ]
+    },
+    {
+      "tag": "breakfast",
+      "patterns": [
+        "What do you offer for breakfast?",
+        "I want to have breakfast",
+        "Is breakfast available?",
+        "Breakfast"
+      ],
+      "responses": [
+        "We offer Idli Sambar, Dosa, Bread-butter, French Toast, Omlette, Upma, Poha",
+        "What do you want to eat? - Idli Sambar, Dosa, Bread-butter, French Toast, Omlette, Upma, Poha",
+        "We accept UPI payments through Google Pay, Paytm, Bharatpe and Phonepe"
+      ]
+    },
+    {
+      "tag": "lunch",
+      "patterns": [
+        "What do you offer for lunch?",
+        "I want to have lunch",
+        "Is lunch available?",
+        "Breakfast"
+      ],
+      "responses": [
+        "We offer White Sauce Pasta, Alfredo Pasta, Biryani, Fish Curry, Chicken Butter Masala, Egg Curry, Thali(Veg/Non-veg), Dal Tadka",
+        "What do you want to eat? - Idli Sambar, Dosa, Bread-butter, French Toast, Omlette, Upma, Poha"
+      ]
+    },
+    {
+      "tag": "snacks",
+      "patterns": [
+        "What do you offer in snacks?",
+        "I want to have snacks",
+        "Are snacks available?",
+        "Snacks"
+      ],
+      "responses": [
+        "We offer Burger(veg/non-veg), Chips, French-fries, Churros, Maggie(veg/non-veg), Nuggets, Garlic Bread, Tacos",
+        "What do you want to eat? - Burger(veg/non-veg), Chips, French-fries, Churros, Maggie(veg/non-veg), Nuggets, Garlic Bread, Tacos"
+      ]
+    },
+    {
+      "tag": "dinner",
+      "patterns": [
+        "What do you offer for dinner?",
+        "I want to have dinner",
+        "Is dinner available?",
+        "Dinner"
+      ],
+      "responses": [
+        "We offer Plain Naan, Butter Naan, Garlic Naan, Tandoori Naan, Chicken 65, Panneer 65, Veg Kolhapuri, Mixed Veg, Dal Makhani, Dal Fry, Masala Fish Fry, Egg Fry",
+        "What do you want to eat? - Plain Naan, Butter Naan, Garlic Naan, Tandoori Naan, Chicken 65, Panneer 65, Veg Kolhapuri, Mixed Veg, Dal Makhani, Dal Fry, Masala Fish Fry, Egg Fry"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "How do I pay?",
+        "How do I make payment?",
+        "Payment?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Can I pay with Google Pay?",
+        "Can I pay with Paytm?",
+        "Can I pay with Phonepe?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept cash, all major cards and UPI payments",
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal",
+        "We accept UPI payments through Google Pay, Paytm, Bharatpe and Phonepe"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 hours depending on the location",
+        "It depends on the location, but expect delivery within 2-4 hours",
+        "Expect the items to be delivered within 2-4 hours"
+      ]
+    },
+    {
+      "tag": "popular",
+      "patterns": [
+        "What is your most popular dish?",
+        "I want to have the most popular dish here",
+        "Please serve me the most popular dish"
+      ],
+      "responses": [
+        "It would be Chicken 65 with Garlic Naan",
+        "It would be Alfredo Pasta with cheese nuggets",
+        "It would be Chicken Biryani"
+      ]
+    }
+  ]
+}
